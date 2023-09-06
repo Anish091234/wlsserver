@@ -195,4 +195,7 @@ rtmp {
 }
 EOF
 
+sudo systemctl start nginx
+sudo systemctl status nginx
+
 echo "Done :)"
