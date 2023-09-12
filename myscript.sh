@@ -181,6 +181,7 @@ rtmp {
             record all;
             record_path /home/;
 
+            push "rtmp://a.rtmp.youtube.com/live2/[PASSWORD]"
 
             rxxecord_unique on;
             
